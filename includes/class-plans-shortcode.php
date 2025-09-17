@@ -22,14 +22,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 class Plans_Shortcode {
 
     /**
-     * Cache duration in seconds (1 hour)
-     *
-     * @since 1.0.0
-     * @var int
-     */
-    const CACHE_DURATION = HOUR_IN_SECONDS;
-
-    /**
      * Transient key for caching shortcode output
      *
      * @since 1.0.0
