@@ -10,8 +10,9 @@ This plugin adds a Custom Post Type (CPT) "Plan" for creating pricing plans and 
 ## Installation
 1. Upload the `plans` folder to `wp-content/plugins/`.
 2. Activate the plugin in the WordPress admin panel (Plugins > Installed Plugins).
-3. Create new "Plan" CPT entries in the "Plans" menu.
-4. Add the shortcode [plans] to any page or post.
+3. Configure plugin settings under the "Settings > Plans" menu in the WordPress admin panel.
+4. Create new "Plan" CPT entries in the "Plans" menu.
+5. Add the shortcode [plans] to any page or post.
 
 ## Shortcode Parameters
 The [plans] shortcode has no additional parameters. It automatically displays all active plans (is_enabled = true), filtering by is_annual in the tabs.
